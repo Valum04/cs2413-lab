@@ -2,24 +2,12 @@
 
 int two_sum(const int* nums, size_t n, int target, size_t* out_i, size_t* out_j) {
 
- // finish your code here
+ // TODO: implement Two Sum.
+    // Requirements:
+    //  - find i < j such that nums[i] + nums[j] == target
+    //  - store indices in *out_i and *out_j
+    //  - return 1 if found; otherwise return 0
 
-    if (!nums || n < 2 || !out_i || !out_j) {
-        return 0;
-    }
-
-    // Brute force (array-only) solution: O(n^2), no extra data structures.
-    for (size_t i = 0; i < n; i++) {
-        for (size_t j = i + 1; j < n; j++) {
-            if (nums[i] + nums[j] == target) {
-                *out_i = i;
-                *out_j = j;
-                return 1;
-            }
-        }
-    }
-
-    return 0; // no solution found
-
+    return 0;
 }
 
