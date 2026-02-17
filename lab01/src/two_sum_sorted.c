@@ -5,6 +5,7 @@ int two_sum_sorted(const int* nums, int n, int target, int* out_i, int* out_j) {
 
     // TODO: implement rwo sum solution for sorted arrays.
 
+<<<<<<< HEAD
     int i = 0;
     int j = n - 1;
     for(int k = 0; k < n; k++)
@@ -26,3 +27,9 @@ int two_sum_sorted(const int* nums, int n, int target, int* out_i, int* out_j) {
             
 }
 // think about the time complexity and space complexity of your solution
+=======
+    return 0;
+}
+// think about the time complexity and space complexity of your solution
+
+>>>>>>> Assignment/main

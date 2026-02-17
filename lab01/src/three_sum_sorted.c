@@ -3,6 +3,7 @@
 int three_sum_zero_sorted_one(const int* nums, int n, int* out_i, int* out_j, int* out_k) {
     
     // implement your code here
+<<<<<<< HEAD
 //nums[i] + nums[j] + nums[k] == 0
 int target = 0;
    int i = 0;
@@ -25,6 +26,8 @@ int target = 0;
             return 1;
         }
     }
+=======
+>>>>>>> Assignment/main
 
     return 0;
 }
